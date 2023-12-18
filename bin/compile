@@ -23,5 +23,5 @@ mkdir -p $CACHE_DIR/$ARCHIVE_NAME
 mkdir -p $BUILD_DIR/vendor
 tar jxf $CACHE_DIR/$FILE_NAME -C $CACHE_DIR
 mkdir -p app/vendor/xvfb
-mv $CACHE_DIR/$ARCHIVE_NAME $BUILD_DIR/vendor/xvfb
-#apt-get install xvfb -y
+mv $CACHE_DIR/$ARCHIVE_NAME app/vendor/xvfb
+apt-get install xvfb -y

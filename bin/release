@@ -3,7 +3,7 @@
 cat << EOF
 ---
 config_vars:
-  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor:/app/vendor/xvfb/bin:/app/vendor/xvfb"
+  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor:/app/vendor/xvfb/bin:app/vendor/xvfb/Xvfb/bin"
   LD_LIBRARY_PATH: "/usr/local/lib:/usr/lib:/lib:/app/vendor/xvfb/lib"
   TMPDIR: "/app/tmp"
 default_process_types:
